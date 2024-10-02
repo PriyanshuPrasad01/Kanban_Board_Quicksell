@@ -1,0 +1,25 @@
+.grouping-controls {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white; 
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.filter-icon {
+    margin-right: 8px;
+}
+
+.grouping-label {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+select {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}

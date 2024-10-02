@@ -1,0 +1,75 @@
+.kanban-column {
+    background-color: #f0f0f0; 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    margin-right: 20px;
+    height: 100%; 
+}
+
+.column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.group-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    display: flex;
+    align-items: center;
+}
+
+.ticket-count {
+    font-size: 18px;
+    color: #acacac;
+    margin-left: 10px;
+}
+
+
+.header-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.header-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.priority-column-header,
+.user-column-header,
+.status-column-header {
+    display: flex;
+    align-items: center;
+}
+
+.priority-column-header img,
+.user-column-header img,
+.status-column-header img {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.avatar-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.empty-column {
+    color: #999999;
+    font-style: italic;
+    margin-top: 20px;
+    text-align: center;
+}
